@@ -1,0 +1,35 @@
+ /*Einfaches Zeiger-Beispiel. */
+ 
+ 	#include<stdio.h> 
+ 
+ {
+ 
+ /* Deklariert und initialisiert eine int-Variable */
+ 
+ int var=1;
+ 
+ /* Deklariert einen Zeiger auf int */
+ 
+ int *zgr;
+ 
+ int main(void)
+ 
+ 	/*initialsiert zgr als Zeiger auf var */
+ 	
+ 	zgr = &var
+ 	
+ 	/*Direkter und indirekter Zugriff auf var */
+ 	
+ 	printf("\nDirekter Zugriff, var=%d", var);
+ 	printf("\nindirekter Zugriff, var=%d", *zgr);
+
+ 	/* Zwei Möglichkeiten, um die Adresse von var anzuzeigen */
+ 	
+ 	printf("\n\nDie Adresse von var =%lu", (unsigned long&var);
+ 	printf("\n\Die Adresse von var =%lu\n", (unsigned long&zgr);	
+ 	 
+ 	 return 0;
+ 	 
+}
+ 	 
+ 	 
